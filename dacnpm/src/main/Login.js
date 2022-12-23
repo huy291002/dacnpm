@@ -16,7 +16,7 @@ function Login() {
         console.log("Username: ", username);
         console.log("Password: ", passwords);
         sessionStorage.setItem("isLogin", 'true');
-        navigate('/');  
+        setGotohome(true);  
     }
   return (
     <div class= "container">
@@ -37,7 +37,7 @@ function Login() {
             </div>
            
             <div class="col-12">
-                <button class="btn btn-primary" type="submit" onClick ={() => {setGotohome(true)}} >Login</button>
+                <button class="btn btn-primary" type="submit"  >Login</button>
             </div>
         </form>
     </div>
