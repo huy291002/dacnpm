@@ -30,6 +30,4 @@ app.use(bodyParserURLEncoded);
 app.use('/api',router);
 apiRoutes(router);
 
-
-
 server.listen(3001);
