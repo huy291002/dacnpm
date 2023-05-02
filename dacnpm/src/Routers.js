@@ -7,7 +7,7 @@ import {
   Link
 } from "react-router-dom";
 import Home from './main/Home'
-import Register from './main/Register';
+
 import Login from './main/Login';
 import Search from './main/Search';
 function AppRouter() {
@@ -16,7 +16,6 @@ function AppRouter() {
         <Router>
           <Routes>
           <Route path='/' element ={JSON.parse(sessionStorage.getItem("isLogin")) ?<Home/>: <Navigate to = "/login" />} />
-            <Route path = '/register' element={<Register/>}/>
             <Route path = '/login' element ={<Login/>}/>
             <Route path = '/search' element = {<Search/>}/>
           </Routes>

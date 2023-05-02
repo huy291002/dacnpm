@@ -1,0 +1,63 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-image: url('/src/asset/background-sound.jpg');
+    background-size: cover;
+    opacity: 0;
+    transition: opacity 0.7s ease-in-out;
+    font-family: 'Outfit', 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  body.loaded {
+    opacity: 0.2;
+  } */
+  /* img{
+    opacity: 0.3;
+  } */
+body{
+  height: 100%;
+  margin: 0;
+}
+.bg{
+  background-image: url("/src/asset/sound-img.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.flex{
+    display: flex;
+    margin-left: 500px;
+    padding-top: 200px;
+    
+
+   
+    
+}
+.sizeofinput{
+    width: 420px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-bottom: 20px; 
+    background-color: white;
+    font-weight: bold;
+    
+
+}
+.form{
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+  
